@@ -1731,6 +1731,20 @@ select[aria-invalid="true"] {
     align-self: flex-start;
   }
 
+  .result-hero-card {
+    position: relative;
+  }
+
+  .result-card-label .label-with-tip {
+    position: static;
+  }
+
+  .result-card-label .help-tip-text {
+    left: 12px;
+    right: 12px;
+    width: auto;
+  }
+
   .result-detail-row {
     align-items: flex-start;
     flex-direction: column;
